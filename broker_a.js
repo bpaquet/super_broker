@@ -1,0 +1,1 @@
+var broker = require('./messaging/broker.js').create("tcp://*:5555", 5000);

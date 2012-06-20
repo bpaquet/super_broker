@@ -1,0 +1,16 @@
+{
+  "name": "proto-rff",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "zmq": "git://github.com/vvo/zeromq.node.git#e670511a6da2982919ea0a9601aa1aa5207e0b2c", 
+    "node-uuid": "1.3.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "./test-runner.sh"
+  },
+  "engines": {"node": "0.6.19"}
+}
